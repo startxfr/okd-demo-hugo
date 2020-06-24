@@ -1,0 +1,133 @@
+
+.bg-startx {
+    background-image: url("/images/top.svg"), url("/images/bottom.svg");
+    background-position: top left,            bottom right;
+    background-repeat:   no-repeat,           no-repeat;
+    background-size: 100%, 30%;
+}
+
+
+header .sx-head-img {
+    width: 100%;
+    margin: 0;
+    padding: 0 0 0 20%;
+}
+header .sx-head-img h1 {
+    float: left;
+    margin: 0;
+    width: 70%;
+    padding: 0;
+    font-size: 4em;
+    text-align: left;
+}
+
+header .sx-head-img h2 {
+    float: left;
+    width: 75%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+header .sx-head-img img {
+    float: right;
+    margin: 0;
+    width: 15%;
+    padding: 0 5%;
+}
+
+/* Pages formations */
+body > header.page-formation h1 strong {
+    font-size: 1.5em;
+}
+body > header.page-formation h1 {
+    font-size: 1.9em;
+}
+body > header.page-formation h2 {
+    margin-top: .8em;
+}
+
+article.page-formation header {
+    display: none
+}
+
+article.page-formation ul.taglist li {
+  display:inline
+}
+
+/* Pages certifications */
+body > header.page-certification h1 strong {
+    font-size: 1.5em;
+}
+body > header.page-certification h1 {
+    font-size: 1.9em;
+}
+body > header.page-certification h2 {
+    margin-top: .8em;
+}
+
+article.page-certification header {
+    display: none
+}
+
+article.page-certification ul.taglist li {
+  display:inline
+}
+
+/* Pages cursus */
+body > header.page-cursus h1 strong {
+    font-size: 1.5em;
+}
+body > header.page-cursus h1 {
+    font-size: 1.9em;
+}
+body > header.page-cursus h2 {
+    margin-top: .8em;
+}
+
+article.page-cursus header {
+    display: none
+}
+
+article.page-cursus ul.taglist li {
+  display:inline
+}
+
+
+/* Pages format */
+body > header.page-format h1 strong {
+    font-size: 1.5em;
+}
+body > header.page-format h1 {
+    font-size: 1.9em;
+}
+body > header.page-format h2 {
+    margin-top: .8em;
+}
+
+article.page-format header {
+    display: none
+}
+
+article.page-format ul.taglist li {
+  display:inline
+}
+
+/* Pages editeurs */
+body > header.page-editeurs h1 strong {
+    font-size: 1.5em;
+}
+body > header.page-editeurs h1 {
+    font-size: 1.9em;
+}
+body > header.page-editeurs h2 {
+    margin-top: .8em;
+}
+
+article.page-editeurs header {
+    display: none
+}
+
+article.page-editeurs ul.taglist li {
+  display:inline
+}

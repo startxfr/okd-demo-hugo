@@ -1,0 +1,4 @@
+app-source/node_modules
+app-source/public/*
+app-source/data/*.json
+app/*

@@ -1,0 +1,75 @@
+baseURL = "http://example.com/"
+languageCode = "en-GB"
+title = "Lorem Ipsum"
+theme = "ananke"
+#themesDir = "../.."
+disableLiveReload = false
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+#SectionPagesMenu = "main"
+Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+DisqusShortname = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      attribute = true
+      autoHeadingID = true
+      autoHeadingIDType = "github"
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = false
+      xhtml = false
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokai"
+    tabWidth = 4
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
+
+[params]
+  favicon = "/images/favicon.ico"
+  site_logo = "/images/startx.svg"
+  description = "Sed adipiscing diam donec adipiscing tristique risus nec feugiat"
+  facebook = ""
+  twitter = "https://twitter.com/startx_france"
+  instagram = ""
+  youtube = "https://www.youtube.com/channel/UCQUtM653s4FypdsiW_VWRww"
+  github = "https://github.com/startxfr"
+  gitlab = ""
+  linkedin = "https://www.linkedin.com/company/2369958"
+  mastodon = ""
+  slack = ""
+  stackoverflow = ""
+  rss = ""
+  # background_color_class = "bg-white"
+  # featured_image = "/images/featured/default.svg"
+  recent_posts_number = 2
+  disable_share = true
+  env = "production"
+  commentoEnable = false
+  show_reading_time = true

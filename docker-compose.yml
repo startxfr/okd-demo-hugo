@@ -1,0 +1,17 @@
+# STARTX Formation portal
+
+# Application container
+app:
+  image: quay.io/startx/runner-ansible:latest
+  container_name: "startx-hugo-example"
+  environment:
+    - SX_VERBOSE=true
+    - SX_DEBUG=true
+  ports:
+    - "1970:1970"
+  user: "0:0"
+  volumes:
+    - "./:/app-source:z"
+  working_dir: /app-source
+  command:
+    - "./hugo-start.sh"

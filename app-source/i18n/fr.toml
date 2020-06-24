@@ -1,0 +1,104 @@
+[more]
+other = "Plus d'info"
+
+[allTitle]
+other = "Tous les {{.Title }}"
+
+[recentTitle]
+other = "{{.Title }} récents"
+
+[readMore]
+other = "lire plus"
+
+[whatsInThis]
+other = "Dans cette page"
+
+[related]
+other = "Sur le meme sujet..."
+
+[editeurCursusRelated]
+other = "Cursus "
+
+[editeurFormationsRelated]
+other = "Formations "
+
+[formationCursusRelated]
+other = "Cursus lies"
+
+[formationEditeurRelated]
+other = "Editeur de ce cours"
+
+[formationFicheSynthese]
+other = "Format de ce cours"
+
+[formationFormatsRelated]
+other = "Format de ce cours"
+
+[formationFicheAvant]
+other = "Avant ce cours"
+
+[formationFicheApres]
+other = "Apres ce cours"
+
+[formationFicheCertif]
+other = "Certifications lies"
+
+[formationFicheMetier]
+other = "Horizon professionnel"
+
+[formationFicheMetierCPF]
+other = "Cette formation est eligible au CPF"
+
+[certificationCursusRelated]
+other = "Cursus lies"
+
+[certificationEditeurRelated]
+other = "Editeur de cette certification"
+
+[certificationFicheSynthese]
+other = "Format de cette certification"
+
+[certificationFormatsRelated]
+other = "Format de cette certification"
+
+[certificationFicheAvant]
+other = "Avant cette certification"
+
+[certificationFicheApres]
+other = "Apres cette certification"
+
+[certificationFicheCertif]
+other = "Certifications lies"
+
+[certificationFicheMetier]
+other = "Horizon professionnel"
+
+[certificationFicheMetierCPF]
+other = "Cette certification est eligible au CPF"
+
+[formatFormatsRelated]
+other = "Formations de ce format"
+
+[cursusFormationsRelated]
+other = "Formations de ce cursus"
+
+[cursusEditeursRelated]
+other = "Editeurs de ce cursus"
+
+[yourName]
+other = "Votre nom"
+
+[emailAddress]
+other = "Adresse e-mail"
+
+[message]
+other = "Message"
+
+[emailRequiredNote]
+other = "Votre adresse e-mail est requise."
+
+[error404Head]
+other = "Cette page n'existe pas (ou plus)"
+
+[error404Message]
+other = "Ce lien n'existe plus et nous sommes desole de ne pouvoir vous apporter immediatement les renseignements que vous recherchiez."

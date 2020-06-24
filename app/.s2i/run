@@ -1,0 +1,12 @@
+#!/bin/bash -e
+#
+# Source code run script. Will replace the default container entrypoint script provided by STARTX.
+# This script will run on container startup
+#
+# For more information refer to the documentation:
+#  https://github.com/startxfr/docker-images
+#
+
+# app could be found in $APP_PATH
+echo "OKD-DEMO-HUGO start running..."
+doApacheRun
